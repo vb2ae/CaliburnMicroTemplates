@@ -1,2 +1,2 @@
 # CaliburnMicroTemplates
-.net and .net core wpf project templates
+.net core wpf project templates in CSharp and VB
