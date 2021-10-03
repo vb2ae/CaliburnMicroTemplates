@@ -20,7 +20,6 @@ namespace CSharpCaliburnMicro.Views
     {
         public HomeView()
         {
-            InitializeComponent();
         }
     }
 }

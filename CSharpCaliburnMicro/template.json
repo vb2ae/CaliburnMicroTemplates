@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ken Tucker",
+  "classifications": [ "MVVM", "WPF", "Caliburn.Micro", "VB" ],
+  "identity": "Caliburn.Micro.Core.VB.WPF",
+  "name": "Example templates: async project",
+  "shortName": "CoreVBWPF",
+  "tags": {
+    "language": "VB",
+    "type": "Desktop"
+  }
+}

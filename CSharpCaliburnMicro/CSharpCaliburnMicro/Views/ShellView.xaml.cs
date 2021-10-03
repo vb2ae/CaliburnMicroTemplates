@@ -20,7 +20,7 @@ namespace CSharpCaliburnMicro.Views
     {
         public ShellView()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }
