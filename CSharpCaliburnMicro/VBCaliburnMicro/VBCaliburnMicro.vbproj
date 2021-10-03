@@ -5,6 +5,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>VBCaliburnMicro</RootNamespace>
     <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Ken Tucker</Authors>
+    <Company>Ken Tucker</Company>
+    <Product>VB Caliburn Micro Template</Product>
+    <Description>Caliburn.Micro Template for .net core VB WPF apps</Description>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <Version>1.0.2</Version>
+    <PackageLicenseUrl>https://github.com/vb2ae/CaliburnMicroTemplates/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>Caliburn.Micro WPF .net core VB</PackageTags>
+    <RepositoryUrl>https://github.com/vb2ae/CaliburnMicroTemplates</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="TemplatesVSIX.1dcba63b-bcdb-49d1-ace9-42dceecee6d4" Version="1.0" Language="en-US" Publisher="Ken Tucker" />
+        <DisplayName>Caliburn Micro Templates</DisplayName>
+        <Description xml:space="preserve">Caliburn Micro Templates for .net core WPF applications</Description>
+        <Icon>CaliburnIcon.png</Icon>
+        <Tags>MVVM Caliburn.Micro WPF ,net Core</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
+</PackageManifest>
